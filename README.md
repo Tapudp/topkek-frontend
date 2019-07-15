@@ -18,3 +18,5 @@
 - while solving a bug : `bug: your message`
 
 - also don't forget to mention the status with the commit whether it is pending or not
+
+ after comitting, Branch that has your changes; push that particular branch and raise a `MergeRequest / Pull Request ` against `master` branch

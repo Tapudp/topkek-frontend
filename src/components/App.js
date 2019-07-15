@@ -11,12 +11,12 @@ function App() {
       </header>
 
       <div className="maincols">
-        <div>
+        <div className="contentcol">
           <div className="status">
             <div>Gucci Status: offline</div>
             <a href="#">Click Here To Join topkek Discord</a>
           </div>
-          <div className="Topics">
+          <div className="topics">
             <div className="topicsec">
               <p>sectionName ;conditional</p> {/* will be conditional* */}
               <h3>Announcements</h3>

@@ -15,9 +15,13 @@
 .maincols {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   padding: 5vmin 50px;
+}
+
+.contentcol {
+  width: 75%;
 }
 
 .status {
@@ -29,7 +33,6 @@
   align-items: center;
   padding: 1rem 2rem;
   font-size: 1rem;
-  width: 30rem;
 }
 
 .status a {
@@ -44,6 +47,7 @@
   display: flex;
   flex-direction: column;
   padding: 0 0 0 2rem;
+  width: 25%;
 }
 
 .howdy p {
@@ -53,16 +57,30 @@
 .registercard {
   display: flex;
   flex-direction: column;
+  padding: 1rem 1rem;
+  margin: 0 0 1rem 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
 }
 
 .categorycard {
   display: flex;
   flex-direction: column;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
+  margin: 0 0 1rem 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
 }
 
 .authbtn {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.topics {
+  padding: 1rem 1rem;
+  margin: 1rem 0 1rem 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
 }

@@ -1,0 +1,68 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vmin;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.maincols {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5vmin 50px;
+}
+
+.status {
+  background-color: #4caf50 !important;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  width: 30rem;
+}
+
+.status a {
+  color: inherit;
+}
+
+.status a:hover {
+  color: #e8e8e8;
+}
+
+.howdy {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 2rem;
+}
+
+.howdy p {
+  font-size: 0.8rem;
+}
+
+.registercard {
+  display: flex;
+  flex-direction: column;
+}
+
+.categorycard {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.authbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
